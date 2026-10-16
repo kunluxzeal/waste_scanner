@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Test cache
+.pytest_cache/
+
+# Generated outputs
+outputs/
+
+# Model weights and exports
+models/*.pt
+models/*_ncnn_model/
+
+# Node dependencies and build outputs
+node_modules/
+dist/
+dist-ssr/
+
+# Local files
+*.local
+yolo_export_env/

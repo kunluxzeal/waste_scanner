@@ -1,0 +1,48 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environments
+.venv/
+venv/
+yolo_export_env/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Generated frontend files
+frontend/node_modules/
+frontend/dist/
+
+# Generated model files and exports
+outputs/
+models/*.pt
+models/*_ncnn_model/
